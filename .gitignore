@@ -1,2 +1,6 @@
 .settings
 .project
+*.war
+*.db
+*/job.xml
+*/META-INF/*
