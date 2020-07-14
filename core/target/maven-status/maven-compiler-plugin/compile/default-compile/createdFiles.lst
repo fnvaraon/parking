@@ -1,0 +1,17 @@
+com\devonfw\microservice\parking\SpringBootApp.class
+com\devonfw\microservice\parking\general\logic\impl\config\DefaultRolesPrefixPostProcessor.class
+com\devonfw\microservice\parking\general\common\api\security\ApplicationAccessControlConfig.class
+com\devonfw\microservice\parking\general\service\impl\config\WebSecurityBeansConfig.class
+com\devonfw\microservice\parking\general\logic\api\UcManageBinaryObject.class
+com\devonfw\microservice\parking\general\service\impl\config\BaseWebSecurityConfig.class
+com\devonfw\microservice\parking\general\logic\impl\UcManageBinaryObjectImpl.class
+com\devonfw\microservice\parking\general\service\impl\config\WebSecurityConfig.class
+com\devonfw\microservice\parking\general\dataaccess\api\dao\BinaryObjectRepository.class
+com\devonfw\microservice\parking\general\common\impl\config\BeansDozerConfig.class
+com\devonfw\microservice\parking\general\common\impl\security\BaseUserDetailsService.class
+com\devonfw\microservice\parking\general\dataaccess\api\ApplicationPersistenceEntity.class
+com\devonfw\microservice\parking\general\common\base\AbstractBeanMapperSupport.class
+com\devonfw\microservice\parking\general\dataaccess\api\BinaryObjectEntity.class
+com\devonfw\microservice\parking\general\logic\base\AbstractUc.class
+com\devonfw\microservice\parking\general\logic\base\AbstractLogic.class
+com\devonfw\microservice\parking\general\service\impl\rest\ApplicationAccessDeniedHandler.class

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG" xmlns="http://logging.apache.org/log4j/2.12/config">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="[%-5p] %d{YYYY-MM-dd HH:mm:ss} [%t] %c{2} (%F:%L) - %msg%n" />
+		</Console>
+ 
+		<File name="RollingFile" location="C:\Users\fnvaraon\Documents\SNCF\Projets\Proyectos_Formacion\parking-academy\log" filename="log/Parking.log"
+			filepattern="${logPath}/Parking.%d{YYYYMMddHHmmss}.log">
+			<PatternLayout pattern="[%-5p] %d{YYYY-MM-dd HH:mm:ss} [%t] %c{2} (%F:%L) - %msg%n" />
+			<Policies>
+				<SizeBasedTriggeringPolicy size="10 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</File>
+ 
+	</Appenders>
+	<Loggers>
+		<Logger name="com.memorynotfound" level="debug"/>
+		<Root level="debug">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="RollingFile" />
+		</Root>
+	</Loggers>
+</Configuration>
