@@ -4,3 +4,11 @@
 *.db
 */job.xml
 */META-INF/*
+api/eclipse-target/classes/META-INF/MANIFEST.MF
+api/eclipse-target/classes/META-INF/maven/com.devonfw.microservice/parking-api/pom.properties
+api/eclipse-target/classes/META-INF/maven/com.devonfw.microservice/parking-api/pom.xml
+core/eclipse-target/classes/job.xml
+core/eclipse-target/classes/META-INF/MANIFEST.MF
+core/eclipse-target/classes/META-INF/maven/com.devonfw.microservice/parking-core/pom.properties
+core/eclipse-target/classes/META-INF/maven/com.devonfw.microservice/parking-core/pom.xml
+server/eclipse-target/m2e-wtp/web-resources/META-INF/maven/com.devonfw.microservice/parking-server/pom.properties
